@@ -1,17 +1,6 @@
 ﻿class Program
 {
    enum Shape { Square, Rectangle, Triangle }
-
-    public static readonly string[] Shapes =
-    {
-        "Sunday",    // 0
-        "Monday",    // 1
-        "Tuesday",   // 2
-        "Wednesday", // 3
-        "Thursday",  // 4
-        "Friday",    // 5
-        "Saturday"   // 6
-    };
     static bool IsValidShape(Shape shape) => Enum.IsDefined(typeof(Shape), shape);
     static bool AreValidShapeDimensions(Shape shape, params double[] dimensions)
     {
@@ -111,23 +100,8 @@
     }
     static void Main()
     {
-        if (DayOfWeek.Monday.ToString() == Shapes[1])
-        {
-            Console.WriteLine("It's Monday!");
-        }
-        Console.WriteLine(DayOfWeek.Monday.ToString());
-        Console.WriteLine(DayOfWeek.Monday);
-        DayOfWeek t = DayOfWeek.Monday;
-        t = 12;
-        Console.WriteLine(t);
-
         CalculatePerimeter(5);
         CalculatePerimeter(5, 10);
         CalculatePerimeter(3, 4, 5);
     }
-}
-
-class Custom
-{
-
 }
