@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Task04\\Task04\\Task04.csproj",
-      "projectName": "Task04",
-      "projectPath": "C:\\Users\\DELL\\source\\repos\\Task04\\Task04\\Task04.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Task04\\Task04\\Task05.csproj",
+      "projectName": "Task05",
+      "projectPath": "C:\\Users\\DELL\\source\\repos\\Task04\\Task04\\Task05.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DELL\\source\\repos\\Task04\\Task04\\obj\\",
       "projectStyle": "PackageReference",
